@@ -1,10 +1,10 @@
-package com.github.chinloyal.pusher_client.pusher.listeners
+package com.github.yuri0111.pusher_client.pusher.listeners
 
 import android.os.Handler
 import android.os.Looper
-import com.github.chinloyal.pusher_client.core.utils.Constants
-import com.github.chinloyal.pusher_client.pusher.PusherService.Companion.debugLog
-import com.github.chinloyal.pusher_client.pusher.PusherService.Companion.eventSink
+import com.github.yuri0111.pusher_client.core.utils.Constants
+import com.github.yuri0111.pusher_client.pusher.PusherService.Companion.debugLog
+import com.github.yuri0111.pusher_client.pusher.PusherService.Companion.eventSink
 import com.pusher.client.channel.ChannelEventListener
 import com.pusher.client.channel.PusherEvent
 import org.json.JSONObject
