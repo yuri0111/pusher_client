@@ -20,7 +20,6 @@ A pusher client plugin that works.
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.dependency 'PusherSwiftWithEncryption', '~> 8.0.0'
-  s.dependency 'PusherSwift', '~> 9.0'
   s.platform = :ios, '9.0'
 
   # Flutter.framework does not contain a i386 slice.
