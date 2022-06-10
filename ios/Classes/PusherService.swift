@@ -159,6 +159,7 @@ class PusherService: MChannel {
             channel = _pusherInstance.connection.channels.find(name: channelName)!
             bindedEvents[channelName + eventName] = channel.bind(eventName: eventName, eventCallback: ChannelEventListener.default.onEvent)
         } else {
+
             channel = _pusherInstance.connection.channels.findPresence(name: channelName)!
             bindedEvents[channelName + eventName] = channel.bind(eventName: eventName, eventCallback: ChannelEventListener.default.onEvent)
         }
